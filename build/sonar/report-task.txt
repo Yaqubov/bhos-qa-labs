@@ -1,0 +1,7 @@
+organization=yaqubov-1
+projectKey=Yaqubov_bhos-qa-labs2
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.24335
+dashboardUrl=https://sonarcloud.io/dashboard?id=Yaqubov_bhos-qa-labs2
+ceTaskId=AXzDKHw1v8OaYBwJnIXe
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXzDKHw1v8OaYBwJnIXe
