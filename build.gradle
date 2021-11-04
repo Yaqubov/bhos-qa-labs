@@ -2,15 +2,6 @@ plugins {
     id 'org.springframework.boot' version '2.5.5'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
-    id "org.sonarqube" version "3.3"
-}
-
-sonarqube {
-    properties {
-        property "sonar.projectKey", "Yaqubov_bhos-qa-labs2"
-        property "sonar.organization", "yaqubov-1"
-        property "sonar.host.url", "https://sonarcloud.io"
-    }
 }
 
 
