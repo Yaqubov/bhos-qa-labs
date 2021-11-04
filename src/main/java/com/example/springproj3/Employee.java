@@ -6,16 +6,15 @@ public class Employee {
     private String employeeContactNumber;
     private String employeeAddress;
 
-
-    public Employee(){
-
-    }
-
     public Employee(String documentId, String employeeName, String employeeAddress, String employeeContactNumber){
         this.documentId = documentId;
         this.employeeName = employeeName;
         this.employeeAddress = employeeAddress;
         this.employeeContactNumber = employeeContactNumber;
+    }
+
+    public Employee() {
+
     }
 
     public String getDocumentId() {
