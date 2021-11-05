@@ -9,10 +9,10 @@ import javax.annotation.PostConstruct;
 import java.io.FileInputStream;
 
 @Service
-public class CrudRunner {
+public class FirebaseInitializer {
 
     @PostConstruct
-    public void setup() {
+    public void initialize() {
         try {
             FileInputStream serviceAccount = new FileInputStream("./ServiceAccountKey.json");
 

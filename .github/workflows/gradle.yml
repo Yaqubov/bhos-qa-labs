@@ -25,7 +25,7 @@ jobs:
       - name: ServiceAccountKey.json
         env:
           LAB7: ${{ secrets.FIREBASE_SECRET }}
-        run: echo $FIREBASE_SECRET > ./ServiceAccountKey.json
+        run: echo $LAB7 > ./ServiceAccountKey.json
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
