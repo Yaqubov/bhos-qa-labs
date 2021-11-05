@@ -15,9 +15,9 @@ class UserServTests {
 
     @Test
     public void testInsertion() throws ExecutionException, InterruptedException {
-        Course new_course = new Course("DBMS", "Mahammad Sharifli", 6);
+        Course new_course = new Course("Network fundamentals", "Adam Smith", 1);
         CourseServ.addCourse(new_course);
-        Course course_get = CourseServ.readCourse("DBMS");
+        Course course_get = CourseServ.readCourse("Network fundamentals");
 
         assertEquals(new_course.name, course_get.name);
         assertEquals(new_course.tutor, course_get.tutor);
