@@ -1,26 +1,31 @@
 package com.example.springproj3;
 
-import com.google.auth.oauth2.GoogleCredentials;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.FirebaseOptions;
 import org.springframework.stereotype.Service;
-
 import javax.annotation.PostConstruct;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.firestore.Firestore;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.cloud.FirestoreClient;
+
 
 @Service
 public class FirebaseInitializer {
-
     @PostConstruct
-    public void initialize() {
+    public void initialize() throws IOException {
         try {
-            FileInputStream serviceAccount = new FileInputStream("./ServiceAccountKey.json");
-
+            InputStream serviceAccount = new FileInputStream("ServiceAccountKey.json");
+            GoogleCredentials credentials = GoogleCredentials.fromStream(serviceAccount);
             FirebaseOptions options = new FirebaseOptions.Builder()
-                    .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+                    .setCredentials(credentials)
                     .build();
-
             FirebaseApp.initializeApp(options);
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
