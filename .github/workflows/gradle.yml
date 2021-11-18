@@ -41,4 +41,4 @@ jobs:
           FIREBASE_PASSWORD: ${{ secrets.FIREBASE_PASSWORD }}
           FIREBASE_USER_ID: ${{ secrets.FIREBASE_USER_ID }}
 
-        run: ./gradlew clean build sonarqube --info
+        run: ./gradlew build
