@@ -26,10 +26,10 @@ public class SRPTest {
     TestRestTemplate restTemplate = new TestRestTemplate();
     HttpHeaders headers = new HttpHeaders();
 
-    public static String username = "vuusale";
-    public static String password = "SuperSecurePassword";
-    public static BigInteger s = new BigInteger("1031322761846613224834536");
-    public static BigInteger v = new BigInteger("2510174848470831614633167459448252804347764498751046077923431241562915250457436529316888461164208599573927059863638499424874945406214587637961689657442699");
+    public static String username = "yaqub0v";
+    public static String password = "you_can_not_predict_this_password";
+    public static BigInteger s = new BigInteger("984651687984651847981652468");
+    public static BigInteger v = new BigInteger("987984654897987465446879879875465132465987984654154968798798756465487987984654546498798465413216549879846513468798798465432134687498");
 
     private String createURLWithPort(String uri) {
         return "http://localhost:" + port + uri;
