@@ -1,8 +1,8 @@
-# Load test results 1
+# Load test results 3
 
 Results of the first load testing that involved 1800 requests during 30 minutes:
 
-![Load test result 1](load_test_result3.png)
+![Load test result 3](load_test_result3.png)
 
 ## Test environment specifications
 ###### OS
