@@ -2,7 +2,7 @@
 
 Results of the first load testing in which the linear search solution to the "First bad version" problem was tested:
 
-![Load test result 5](load_test_result1.PNG)
+![Load test result 5](load_test_result1.png)
 
 ## Test environment specifications
 ###### OS
