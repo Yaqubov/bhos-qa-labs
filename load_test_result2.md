@@ -2,7 +2,7 @@
 
 Results of the second load testing in which the binary search solution to the "First bad version" problem was tested:
 
-![Load test result 5](load_test_result2.PNG)
+![Load test result 5](load_test_result2.png)
 
 ## Test environment specifications
 ###### OS
