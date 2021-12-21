@@ -2,7 +2,7 @@
 
 Results of the first load testing that involves 250 requests per second during 40 seconds:
 
-![Load test result 2](load_test_result2.PNG)
+![Load test result 2](load_test_result2.png)
 
 ## Test environment specifications
 ###### OS
